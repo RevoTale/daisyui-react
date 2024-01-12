@@ -68,7 +68,7 @@
     "eslint-config-grisaia-react": "^0.6.15",
     "eslint-config-grisaia-typescript": "^0.6.14",
     "glob": "^10.3.10",
-    "grisaia-package-builder": "^0.1.13",
+    "grisaia-package-builder": "^0.1.15",
     "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "react": "^18.2.0",
