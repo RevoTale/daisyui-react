@@ -31,7 +31,7 @@
   },
   "packageManager": "pnpm@8.7.5",
   "name": "@revotale/daisyui-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "@revotale/daisyui-react simplify development with DaisyUI + latest React features",
   "type": "module",
   "scripts": {
