@@ -25,6 +25,4 @@ const TimelineItem = React.forwardRef<HTMLLIElement, TimelineItemProps>(
     )
   }
 )
-
-TimelineItem.displayName = 'TimelineItem'
 export default TimelineItem

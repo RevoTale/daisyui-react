@@ -42,7 +42,7 @@ const Carousel = forwardRef<HTMLDivElement, CarouselProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'carousel',
       className,

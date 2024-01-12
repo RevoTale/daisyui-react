@@ -20,7 +20,7 @@ export type RangeProps = Omit<
   }
 
 const Range = forwardRef<HTMLInputElement, RangeProps>(
-  ({ color, size, step, displayTicks, ticksStep, dataTheme, className, ...props }, ref): JSX.Element => {
+  ({ color, size, step, displayTicks, ticksStep, dataTheme, className, ...props }, ref) => {
     const classes = twMerge(
       'range',
       className,
@@ -69,7 +69,5 @@ const Range = forwardRef<HTMLInputElement, RangeProps>(
     )
   }
 )
-
-Range.displayName = 'Range'
 
 export default Range

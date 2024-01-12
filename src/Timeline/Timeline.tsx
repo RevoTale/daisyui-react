@@ -32,7 +32,7 @@ const Timeline = forwardRef<HTMLUListElement, TimelineProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'timeline',
       clsx({
@@ -53,7 +53,6 @@ const Timeline = forwardRef<HTMLUListElement, TimelineProps>(
   }
 )
 
-Timeline.displayName = 'Timeline'
 
 export default Object.assign(Timeline, {
   Item: TimelineItem,

@@ -20,7 +20,7 @@ const Modal = forwardRef<HTMLDialogElement, ModalProps>(
   (
     { children, open, responsive, backdrop, dataTheme, className, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const containerClasses = twMerge(
       'modal',
       clsx({
@@ -55,7 +55,6 @@ const Modal = forwardRef<HTMLDialogElement, ModalProps>(
   }
 )
 
-Modal.displayName = 'Modal'
 
 export type DialogProps = Omit<ModalProps, 'ref'>
 const useDialog = () => {
@@ -76,7 +75,6 @@ const useDialog = () => {
       </Modal>
     )
   }
-  Dialog.displayName = 'Dialog'
   return { dialogRef, Dialog, handleShow, handleHide }
 }
 export default Object.assign(Modal, {

@@ -10,7 +10,7 @@ export type StatSectionProps = React.HTMLAttributes<HTMLDivElement> &
   }
 
 const StatSection = React.forwardRef<HTMLDivElement, StatSectionProps>(
-  ({ children, section, className, ...props }, ref): JSX.Element => {
+  ({ children, section, className, ...props }, ref) => {
     const classes = twMerge(
       className,
       clsx({

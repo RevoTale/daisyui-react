@@ -17,7 +17,7 @@ const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
   (
     { className, size, color, bordered, dataTheme, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'file-input',
       className,
@@ -49,6 +49,5 @@ const FileInput = forwardRef<HTMLInputElement, FileInputProps>(
   }
 )
 
-FileInput.displayName = 'FileInput'
 
 export default FileInput

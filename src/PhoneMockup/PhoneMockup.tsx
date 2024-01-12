@@ -15,7 +15,7 @@ const PhoneMockup = forwardRef<HTMLDivElement, PhoneMockupProps>(
   (
     { color, dataTheme, className, children, innerRef, innerProps, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'mockup-phone',
       clsx({
@@ -55,6 +55,5 @@ const PhoneMockup = forwardRef<HTMLDivElement, PhoneMockupProps>(
   }
 )
 
-PhoneMockup.displayName = 'PhoneMockup'
 
 export default PhoneMockup

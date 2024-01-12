@@ -23,7 +23,7 @@ const Join = forwardRef<HTMLDivElement, JoinProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'join',
       clsx({
@@ -41,7 +41,4 @@ const Join = forwardRef<HTMLDivElement, JoinProps>(
     )
   }
 )
-
-Join.displayName = 'Join'
-
 export default Join

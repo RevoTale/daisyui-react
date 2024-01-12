@@ -16,7 +16,7 @@ const ChatBubble = forwardRef<HTMLDivElement, ChatBubbleProps>(
   (
     { end = false, color, dataTheme, className, children, ...props },
     ref
-  ): JSX.Element => (
+  ) => (
     <div
       {...props}
       className={twMerge('chat', `chat-${end ? 'end' : 'start'}`, className)}
@@ -27,8 +27,6 @@ const ChatBubble = forwardRef<HTMLDivElement, ChatBubbleProps>(
     </div>
   )
 )
-
-ChatBubble.displayName = 'ChatBubble'
 
 export default Object.assign(ChatBubble, {
   Header: ChatBubbleHeader,

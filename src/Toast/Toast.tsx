@@ -47,5 +47,4 @@ const Toast = forwardRef<HTMLDivElement, ToastProps>(
     )
   }
 )
-Toast.displayName = 'Toast'
 export default Toast

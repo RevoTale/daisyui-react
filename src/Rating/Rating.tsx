@@ -22,7 +22,7 @@ const Rating = React.forwardRef<HTMLDivElement, RatingProps>(
   (
     { children, size, half, hidden, dataTheme, className, value, onChange, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'rating',
       className,

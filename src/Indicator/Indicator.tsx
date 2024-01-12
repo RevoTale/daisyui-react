@@ -11,7 +11,7 @@ export type IndicatorProps = React.HTMLAttributes<HTMLDivElement> &
 const classesFn = ({ className }: Pick<IndicatorProps, 'className'> = {}) =>
   twMerge('indicator', className)
 const Indicator = React.forwardRef<HTMLDivElement, IndicatorProps>(
-  ({ children, className, dataTheme, ...props }, ref): JSX.Element => {
+  ({ children, className, dataTheme, ...props }, ref) => {
     return (
       <div
         {...props}
@@ -25,7 +25,6 @@ const Indicator = React.forwardRef<HTMLDivElement, IndicatorProps>(
   }
 )
 
-Indicator.displayName = 'Indicator'
 export default Object.assign(Indicator, {
   Item: IndicatorItem,
   className: classesFn,

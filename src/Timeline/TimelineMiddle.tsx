@@ -35,5 +35,4 @@ const TimelineMiddle = React.forwardRef<HTMLDivElement, TimelineMiddleProps>(
   }
 )
 
-TimelineMiddle.displayName = 'TimelineMiddle'
 export default TimelineMiddle

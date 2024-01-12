@@ -22,6 +22,4 @@ const TimelineEnd = React.forwardRef<HTMLDivElement, TimelineStartProps>(
     )
   }
 )
-
-TimelineEnd.displayName = 'TimelineEnd'
 export default TimelineEnd

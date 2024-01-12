@@ -22,7 +22,7 @@ const Details = React.forwardRef<HTMLDetailsElement, DetailsProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     return (
       <details
         role="listbox"
@@ -44,7 +44,6 @@ const Details = React.forwardRef<HTMLDetailsElement, DetailsProps>(
   }
 )
 
-Details.displayName = 'Details'
 export default Object.assign(Details, {
   Toggle: Summary,
 })

@@ -21,7 +21,7 @@ const Skeleton = forwardRef<HTMLDivElement, SkeletonProps>(
       ...props
       },
       ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'skeleton',
       clsx({
@@ -42,6 +42,5 @@ const Skeleton = forwardRef<HTMLDivElement, SkeletonProps>(
   }
 )
 
-Skeleton.displayName = "Skeleton"
 
 export default Skeleton

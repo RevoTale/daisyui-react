@@ -31,7 +31,7 @@ const Swap = React.forwardRef<HTMLLabelElement, SwapProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'swap',
       className,

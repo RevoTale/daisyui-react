@@ -14,7 +14,7 @@ const Alert = forwardRef<HTMLDivElement, AlertProps>(
   (
     { children, icon, status, dataTheme, className, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'alert',
       className,
@@ -40,7 +40,5 @@ const Alert = forwardRef<HTMLDivElement, AlertProps>(
     )
   }
 )
-
-Alert.displayName = 'Alert'
 
 export default Alert

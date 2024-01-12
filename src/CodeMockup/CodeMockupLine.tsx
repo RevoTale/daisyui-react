@@ -25,7 +25,7 @@ export const CodeMockupLine = forwardRef<HTMLPreElement, CodeMockupLineProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       clsx({
         'bg-info': status === 'info',
@@ -55,5 +55,3 @@ export const CodeMockupLine = forwardRef<HTMLPreElement, CodeMockupLineProps>(
     )
   }
 )
-
-CodeMockupLine.displayName = 'CodeMockup.Line'

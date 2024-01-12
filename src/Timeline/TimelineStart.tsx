@@ -23,5 +23,4 @@ const TimelineStart = React.forwardRef<HTMLDivElement, TimelineStartProps>(
   }
 )
 
-TimelineStart.displayName = 'TimelineStart'
 export default TimelineStart

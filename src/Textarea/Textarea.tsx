@@ -19,7 +19,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   (
     { bordered = true, borderOffset, color, size, dataTheme, className, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'textarea',
       className,

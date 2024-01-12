@@ -12,6 +12,4 @@ const ModalBody = React.forwardRef<HTMLDivElement, ModalBodyProps>(
   }
 )
 
-ModalBody.displayName = 'ModalBody'
-
 export default ModalBody

@@ -29,7 +29,7 @@ const Tooltip = forwardRef<HTMLDivElement, TooltipProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'tooltip',
       className,
@@ -63,7 +63,5 @@ const Tooltip = forwardRef<HTMLDivElement, TooltipProps>(
     )
   }
 )
-
-Tooltip.displayName = 'Tooltip'
 
 export default Tooltip

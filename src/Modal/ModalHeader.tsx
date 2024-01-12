@@ -14,6 +14,4 @@ const ModalHeader = React.forwardRef<HTMLDivElement, ModalHeaderProps>(
   }
 )
 
-ModalHeader.displayName = 'ModalHeader'
-
 export default ModalHeader

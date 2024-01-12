@@ -29,7 +29,7 @@ const BrowserMockup = forwardRef<HTMLDivElement, BrowserMockupProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'mockup-browser border',
       clsx({
@@ -77,6 +77,5 @@ const BrowserMockup = forwardRef<HTMLDivElement, BrowserMockupProps>(
   }
 )
 
-BrowserMockup.displayName = 'BrowserMockup'
 
 export default BrowserMockup

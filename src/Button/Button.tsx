@@ -109,7 +109,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const Tag = tag
     const classes = twMerge(
       'btn',
@@ -171,8 +171,6 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     
   }
 )
-
-Button.displayName = 'Button'
 
 export default Button as <
   T extends ElementType = 'button',

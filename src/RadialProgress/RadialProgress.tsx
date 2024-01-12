@@ -25,7 +25,7 @@ const RadialProgress = forwardRef<HTMLDivElement, RadialProgressProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'radial-progress',
       className,
@@ -65,6 +65,5 @@ const RadialProgress = forwardRef<HTMLDivElement, RadialProgressProps>(
   }
 )
 
-RadialProgress.displayName = 'RadialProgress'
 
 export default RadialProgress

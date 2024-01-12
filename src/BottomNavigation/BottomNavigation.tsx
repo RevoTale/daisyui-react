@@ -20,7 +20,7 @@ export type BottomNavigationProps = React.HTMLAttributes<HTMLDivElement> &
   }
 
 const BottomNavigation = forwardRef<HTMLDivElement, BottomNavigationProps>(
-  ({ size, dataTheme, className, children, ...props }, ref): JSX.Element => {
+  ({ size, dataTheme, className, children, ...props }, ref) => {
     const classes = twMerge(
       'btm-nav',
       clsx({
@@ -45,8 +45,6 @@ const BottomNavigation = forwardRef<HTMLDivElement, BottomNavigationProps>(
     )
   }
 )
-
-BottomNavigation.displayName = 'BottomNavigation'
 
 export default Object.assign(BottomNavigation, {
   Item: BottomNavigationItem,

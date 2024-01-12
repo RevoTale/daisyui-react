@@ -26,7 +26,7 @@ export type SelectProps = Omit<
 const SelectInner = (
   props: SelectProps,
   ref: React.ForwardedRef<HTMLSelectElement>
-): JSX.Element => {
+) => {
   const {
     children,
     size,

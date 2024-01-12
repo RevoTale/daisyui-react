@@ -8,7 +8,7 @@ export type StatProps = React.HTMLAttributes<HTMLDivElement> &
   IComponentBaseProps
 
 const Stat = forwardRef<HTMLDivElement, StatProps>(
-  ({ dataTheme, className, ...props }, ref): JSX.Element => {
+  ({ dataTheme, className, ...props }, ref) => {
     const classes = twMerge('stat', className)
 
     return (

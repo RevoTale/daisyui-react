@@ -14,7 +14,7 @@ const Link = forwardRef<HTMLAnchorElement, LinkProps>(
   (
     { children, href, color, hover = true, dataTheme, className, ...props },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'link',
       className,
@@ -46,6 +46,5 @@ const Link = forwardRef<HTMLAnchorElement, LinkProps>(
   }
 )
 
-Link.displayName = 'Link'
 
 export default Link

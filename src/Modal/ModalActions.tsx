@@ -17,6 +17,4 @@ const ModalActions = React.forwardRef<HTMLDivElement, ModalActionsProps>(
   }
 )
 
-ModalActions.displayName = 'ModalActions'
-
 export default ModalActions

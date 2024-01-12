@@ -1,4 +1,4 @@
-import React, { forwardRef, ReactNode } from 'react'
+import React, { forwardRef } from 'react'
 import clsx from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
@@ -27,7 +27,7 @@ const Badge = forwardRef<HTMLDivElement, BadgeProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'badge',
       className,
@@ -63,7 +63,5 @@ const Badge = forwardRef<HTMLDivElement, BadgeProps>(
     )
   }
 )
-
-Badge.displayName = 'Badge'
 
 export default Badge

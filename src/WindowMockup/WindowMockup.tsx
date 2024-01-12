@@ -34,7 +34,7 @@ const WindowMockup = forwardRef<HTMLDivElement, WindowMockupProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     // Set border color to framecolor or 'bg-base-300', if border color is not defined
     const borderColorValue = borderColor
       ? borderColor
@@ -106,7 +106,5 @@ const WindowMockup = forwardRef<HTMLDivElement, WindowMockupProps>(
     )
   }
 )
-
-WindowMockup.displayName = 'WindowMockup'
 
 export default WindowMockup

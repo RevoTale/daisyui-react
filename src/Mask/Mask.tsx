@@ -62,7 +62,7 @@ const classesFn = ({
   )
 
 const Mask = React.forwardRef<HTMLImageElement, MaskProps>(
-  ({ src, variant, dataTheme, className, ...props }, ref): JSX.Element => {
+  ({ src, variant, dataTheme, className, ...props }, ref) => {
     return (
       <img
         {...props}
@@ -74,5 +74,4 @@ const Mask = React.forwardRef<HTMLImageElement, MaskProps>(
     )
   }
 )
-Mask.displayName = 'Mask'
 export default Object.assign(Mask, { className: classesFn })

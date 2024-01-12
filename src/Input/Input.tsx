@@ -30,7 +30,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       ...props
     },
     ref
-  ): JSX.Element => {
+  ) => {
     const classes = twMerge(
       'input',
       className,
@@ -66,6 +66,5 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
   }
 )
 
-Input.displayName = 'Input'
 
 export default Input
