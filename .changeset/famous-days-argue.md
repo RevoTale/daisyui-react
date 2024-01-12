@@ -2,4 +2,4 @@
 "@revotale/daisyui-react": patch
 ---
 
-Update readme
+Change package name due to npm error

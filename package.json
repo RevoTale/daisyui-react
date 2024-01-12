@@ -24,20 +24,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RevoTale/daisyui-react.git"
+    "url": "git+https://github.com/RevoTale/@revotale/daisyui-react.git"
   },
   "bugs": {
     "url": "https://github.com/RevoTale/next-scroll-restorer/issues"
   },
   "packageManager": "pnpm@8.7.5",
-  "name": "daisyui-react",
+  "name": "@revotale/daisyui-react",
   "version": "0.0.2",
-  "description": "daisyui-react simplify development with DaisyUI + latest React features",
+  "description": "@revotale/daisyui-react simplify development with DaisyUI + latest React features",
   "type": "module",
   "exports": {
-    "import": "./dist/daisyui-react.modern.js",
-    "require": "./dist/daisyui-react.cjs",
-    "default": "./dist/daisyui-react.modern.js",
+    "import": "./dist/@revotale/daisyui-react.modern.js",
+    "require": "./dist/@revotale/daisyui-react.cjs",
+    "default": "./dist/@revotale/daisyui-react.modern.js",
     "types": "./dist/index.d.ts"
   },
   "types": "./dist/index.d.ts",

@@ -1,7 +1,7 @@
 **daisyUI components built with React, Typescript and TailwindCSS**
 
 Components are supporting React Server Components!
-# daisyui-react 🌼
+# @revotale/daisyui-react 🌼
 
 ---
 ## 💿 Install
@@ -11,11 +11,11 @@ Make sure you've installed <a href="https://tailwindcss.com/docs/installation">T
 Install the package with npm or yarn:
 
 ```bash
-npm install daisyui-react
+npm install @revotale/daisyui-react
 ```
 or
 ```bash
-pnpm install daisyui-react
+pnpm install @revotale/daisyui-react
 ```
 To prevent TailwindCSS from purging your styles, add the following line to your tailwind.config.js:
 
@@ -23,7 +23,7 @@ To prevent TailwindCSS from purging your styles, add the following line to your 
 module.exports = {
   content: [
     'node_modules/daisyui/dist/**/*.js',
-    'node_modules/daisyui-react/dist/**/*.js',
+    'node_modules/@revotale/daisyui-react/dist/**/*.js',
   ],
   plugins: [require('daisyui')],
 }
@@ -31,10 +31,10 @@ module.exports = {
 
 ## ⚡ Quick Start
 
-Import daisyui-react components within your component files:
+Import @revotale/daisyui-react components within your component files:
 
 ```js
-import { Button } from 'daisyui-react'
+import { Button } from '@revotale/daisyui-react'
 
 export default (props) => {
   return <Button color="primary">Click me!</Button>

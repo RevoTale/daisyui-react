@@ -1,4 +1,4 @@
-# daisyui-react
+# @revotale/daisyui-react
 
 ## 0.0.2
 
