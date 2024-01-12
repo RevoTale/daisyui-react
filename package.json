@@ -34,13 +34,6 @@
   "version": "0.0.2",
   "description": "@revotale/daisyui-react simplify development with DaisyUI + latest React features",
   "type": "module",
-  "exports": {
-    "import": "./dist/@revotale/daisyui-react.modern.js",
-    "require": "./dist/@revotale/daisyui-react.cjs",
-    "default": "./dist/@revotale/daisyui-react.modern.js",
-    "types": "./dist/index.d.ts"
-  },
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "gbuild . && tsc --emitDeclarationOnly",
     "types:check": "tsc --noEmit",
