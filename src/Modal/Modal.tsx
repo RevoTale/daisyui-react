@@ -7,7 +7,7 @@ import { IComponentBaseProps } from '../types'
 import ModalActions from './ModalActions'
 import ModalBody from './ModalBody'
 import ModalHeader from './ModalHeader'
-import ModalLegacy, { ModalProps as ModalLegacyProps } from './ModalLegacy'
+import ModalLegacy from './ModalLegacy'
 
 export type ModalProps = React.HTMLAttributes<HTMLDialogElement> &
   IComponentBaseProps & {
@@ -47,7 +47,7 @@ const Modal = forwardRef<HTMLDialogElement, ModalProps>(
         </div>
         {backdrop && (
           <form className="modal-backdrop" method="dialog">
-            <button>close</button>
+            <button type="button">close</button>
           </form>
         )}
       </dialog>

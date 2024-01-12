@@ -178,4 +178,4 @@ export default Button as <
   A extends React.HTMLAttributes<HTMLElement> = GetTagProps<T>['attr']
 >(
   props: ButtonProps<T, A> & { ref?: React.Ref<E> }
-) => JSX.Element
+) => ReactNode

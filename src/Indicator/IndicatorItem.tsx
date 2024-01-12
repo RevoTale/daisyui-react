@@ -40,8 +40,8 @@ const IndicatorItem = React.forwardRef<HTMLDivElement, IndicatorItemProps>(
     ref
   ) => {
     return (
-      <div
-        aria-label="Indicator"
+      <div aria-label="Indicator"
+        data-theme={dataTheme}
         {...props}
         className={classesFn({ className, horizontal, vertical })}
         ref={ref}

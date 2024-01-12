@@ -39,7 +39,7 @@ const BottomNavigationItem = forwardRef<
       })
     )
     return (
-      <button {...props} className={classes} data-theme={dataTheme} ref={ref}>
+      <button type="button" {...props} className={classes} data-theme={dataTheme} ref={ref}>
         {children}
       </button>
     )

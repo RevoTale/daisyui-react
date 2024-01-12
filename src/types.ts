@@ -7,9 +7,8 @@ import {
   bgColors,
   brandColors,
 } from './constants'
-import { DEFAULT_THEMES } from './defaultThemes'
 
-export type DataTheme = typeof DEFAULT_THEMES[number] | string
+export type DataTheme =  string
 
 export interface IComponentBaseProps {
   dataTheme?: DataTheme

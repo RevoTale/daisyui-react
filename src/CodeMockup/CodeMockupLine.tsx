@@ -44,7 +44,7 @@ export const CodeMockupLine = forwardRef<HTMLPreElement, CodeMockupLineProps>(
       ...props,
       className: classes,
       ...(dataPrefix !== false && { 'data-prefix': dataPrefix || '>' }),
-    } as Record<string, any>
+    } as Record<string, unknown>
 
     return (
       <pre {...allProps} className={classes} data-theme={dataTheme} ref={ref}>

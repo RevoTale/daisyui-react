@@ -1,4 +1,4 @@
-import React, { forwardRef, useMemo } from 'react'
+import React, { forwardRef } from 'react'
 import clsx from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
@@ -60,7 +60,7 @@ const Range = forwardRef<HTMLInputElement, RangeProps>(
         />
         {calculatedDisplayTicks && (
           <div className="w-full flex justify-between text-xs px-2">
-            {[...Array(numTicks)].map((_, i) => {
+            {Array(numTicks).fill(0).map((_, i) => {
               return <span key={i}>|</span>
             })}
           </div>

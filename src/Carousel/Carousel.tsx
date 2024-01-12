@@ -59,7 +59,7 @@ const Carousel = forwardRef<HTMLDivElement, CarouselProps>(
 
     useEffect(() => {
       const newRefs: RefObject<HTMLDivElement>[] = []
-      children.map((_) => {
+      children.map(() => {
         newRefs.push(createRef<HTMLDivElement>())
       })
       setItemRefs(newRefs)
