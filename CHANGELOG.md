@@ -1,5 +1,11 @@
 # @revotale/daisyui-react
 
+## 0.0.4
+
+### Patch Changes
+
+- 6d7dcba: Fix release C
+
 ## 0.0.3
 
 ### Patch Changes
