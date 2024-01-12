@@ -7,7 +7,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions: {}
 jobs:
   release:
-    if: github.repository == 'RevoTale/@revotale/daisyui-react'
+    if: github.repository == 'RevoTale/daisyui-react'
     concurrency: release
     # prevents this action from running on forks
     permissions:
