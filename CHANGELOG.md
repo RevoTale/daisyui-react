@@ -4,6 +4,15 @@
 
 ### Patch Changes
 
+- e791c45: fix release process
+- b3ed9ab: Change package name due to npm error
+- 958ad28: Remove unnesesarry staff
+- 6296293: Update readme
+
+## 0.0.3
+
+### Patch Changes
+
 - 6296293: Update readme
 
 ## 0.0.2
