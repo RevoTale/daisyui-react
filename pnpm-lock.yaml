@@ -46,9 +46,6 @@ devDependencies:
   grisaia-package-builder:
     specifier: ^0.1.15
     version: 0.1.15(esbuild@0.19.11)
-  pnpm:
-    specifier: ^8.14.1
-    version: 8.14.1
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
@@ -2978,12 +2975,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
-    dev: true
-
-  /pnpm@8.14.1:
-    resolution: {integrity: sha512-hWxOzZfF0/MDVOvDc80y+zcnQpXEidstD2E6HmDwEMrfuxUDbVJfOgbewYl+QhmzxPbTvo8vYvsKNmvuaqp1Mw==}
-    engines: {node: '>=16.14'}
-    hasBin: true
     dev: true
 
   /postcss-import@15.1.0(postcss@8.4.33):
