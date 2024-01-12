@@ -1,7 +1,8 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
-    './.storybook/**/*.{js,jsx,ts,tsx,mdx}'
+    './__tests__/**/*.{js,jsx,ts,tsx}',
+
   ],
   daisyui: {
     styled: true,
