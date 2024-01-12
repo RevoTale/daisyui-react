@@ -9,12 +9,6 @@ import { ModalProps as TModalProps } from './Modal'
 export type ModalProps = TModalProps
 import { ModalLegacyProps as TModalLegacyProps } from './Modal'
 export type ModalLegacyProps = TModalLegacyProps
-export { default as Swap } from './Swap'
-import { SwapProps as TSwapProps } from './Swap'
-export type SwapProps = TSwapProps
-export { default as Avatar } from './Avatar'
-import { AvatarProps as TAvatarProps } from './Avatar'
-export type AvatarProps = TAvatarProps
 export { default as Badge } from './Badge'
 import { BadgeProps as TBadgeProps } from './Badge'
 export type BadgeProps = TBadgeProps
